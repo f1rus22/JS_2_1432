@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="leftHeader">
+                <img src="img/logo.png" alt="">
+                <img class="searchIcon" src="img/search.png" alt="">
+            </div>
+            <div class="rightHeader">
+                <img class="headerBars" src="img/bar.png" alt="">
+                <img class="userIcon" src="img/user.png" alt="">
+                <span class="cartIconWrap">
+                    <img class="cartIcon" src="img/cart.png" alt="">
+                    <span>5</span>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <div class="registrationHead">
+        <div class="container">
+            <h1>CONTACT US</h1>
+        </div>
+    </div>
+
+    <div class="registrtionForm">
+        <div class="container">
+            <div class="leftBlock">
+
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                    <div class="alertName" style="display: none; background: red;">Нужно ввести
+                        имя
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Email">
+                    <div class="alertEmail" style="display: none; background: red;">Нужно ввести
+                        Email
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <input type="phone" class="form-control" id="phone" placeholder="Phone Number">
+                    <div class="alertPhoneNumber" style="display: none; background: red;">Нужно ввести номер
+                        телефона
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <input type="text" id="message" class="form-control" placeholder="Your Message">
+                    <div class="alertMessage" style="display: none; background: red;">Нужно ввести
+                        сообщение
+                    </div>
+                </div>
+                <button class="btn btn-primary">SUBMIT <img src="img/arrow.svg" alt=""></button>
+
+
+            </div>
+            <div class="rightBlock">
+                <div class="rightBlockHead">LOYALTY HAS ITS PERKS</div>
+                <div class="rightBlockInfo">Get in on the loyalty program where you can earn points and unlock serious
+                    perks. Starting with these as soon as you join:</div>
+                <ul>
+                    <li>15% off welcome offer
+                    </li>
+                    <li>Free shipping, returns and exchanges on all orders
+
+                    </li>
+                    <li>$10 off a purchase on your birthday
+
+                    </li>
+                    <li>Early access to products</li>
+                    <li>Exclusive offers & rewards</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscribe">
+        <div class="container">
+            <div class="subscribeLeft">
+                <img src="img/subUser.png" alt="">
+                <div class="subscribeUsertText">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar
+                    purus
+                    condimentum“
+                </div>
+            </div>
+
+            <div class="subscribeRight">
+                <div class="subscribeTitle">
+                    SUBSCRIBE
+                </div>
+                <div class="subscribeText"> FOR OUR NEWLETTER AND PROMOTION
+                </div>
+
+                <form action="#" class="subscribeForm">
+                    <input type="text" placeholder="Enter Your Email">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footerLeft">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-pinterest-p"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <div class="footerRight">
+                &copy; 2021 Brand All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="validation.js"></script>
+
+</body>
+
+</html>
